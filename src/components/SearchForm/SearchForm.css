@@ -1,0 +1,21 @@
+.search-form{
+    background-color: #EDF2F7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.filter select{
+    width: fit-content;
+    padding: 10px;
+    background-color: inherit;
+    border: 1px solid #e0e2e4;
+    border-radius: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+.filter option{
+    margin-bottom: 2px;
+}

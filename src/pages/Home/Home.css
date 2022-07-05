@@ -1,0 +1,35 @@
+
+
+.container{
+    max-width: 1280px;
+    margin: auto
+}
+
+.card-container{
+    width: 100%;
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+@media (max-width: 600px){
+    .card-container{
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .card-container{
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 0;
+    }
+}

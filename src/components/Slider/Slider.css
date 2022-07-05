@@ -1,0 +1,42 @@
+
+
+.arrow{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arrow svg{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.slider-img{
+   width: 910px;
+   overflow: hidden;
+    margin-top: 50px;
+}
+
+.slider-img img{
+    width: 1000px;
+    height: 600px;
+}
+
+
+@media (max-width: 1023px){
+    .slider-img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px){
+    .slider-img img{
+        width: 100vw;
+        height: 400px;
+    }
+    .arrow svg{
+        font-size: 20px;
+        margin: 5px !important;
+        display: none;
+    }
+}

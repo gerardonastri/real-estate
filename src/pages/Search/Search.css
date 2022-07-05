@@ -1,0 +1,30 @@
+
+
+.search-title{
+    background-color: #EDF2F7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    margin-top: 1px;
+    font-size: 1.3rem;
+}
+.search-title svg{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.no-result{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.no-result h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
